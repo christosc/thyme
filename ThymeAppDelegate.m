@@ -262,11 +262,11 @@
     self.hotKeyCenter = center;
     [center release];
     
-    [hotKeyCenter registerHotKeyWithKeyCode:KEYCODE_T
-                              modifierFlags:NSControlKeyMask
-                                     target:self
-                                     action:@selector(keyPressed)
-                                     object:nil];
+//    [hotKeyCenter registerHotKeyWithKeyCode:KEYCODE_T
+//                              modifierFlags:NSControlKeyMask
+//                                     target:self
+//                                     action:@selector(keyPressed)
+//                                     object:nil];
     
     // Configure Growl
     [GrowlApplicationBridge setGrowlDelegate:self];
